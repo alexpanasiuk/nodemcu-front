@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  border-right: none;
+}
+
+.current {
+  background: #6c7ae0;
+  color: #fff;
+}
+
+.button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button:last-child {
+  border-right: 1px solid #f2f2f2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

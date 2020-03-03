@@ -1,0 +1,23 @@
+.title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.backWrapper {
+  display: flex;
+}
+
+.back {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.backText {
+  text-decoration: underline;
+}
+
+.backArrow {
+  display: inline-block;
+  transform: translateY(-5px) scale(1.5);
+  margin-right: 10px;
+}

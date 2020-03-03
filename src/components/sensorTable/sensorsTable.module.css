@@ -1,0 +1,91 @@
+.arrow {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+  transform: scale(1.5);
+  margin-left: 5px;
+}
+
+.rotateArrow {
+  transform: scale(1.5) rotate(180deg);
+}
+
+.wrapTable100 {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.table {
+  width: 100%;
+  display: table;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.table th {
+  cursor: pointer;
+  text-align: left;
+}
+
+.row {
+  display: table-row;
+  background: #fff;
+}
+
+.row.header {
+  color: #ffffff;
+  background: #6c7ae0;
+}
+
+.row.header:hover {
+  background: #6c7ae0;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.row .cell {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.row.header .cell {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.row .cell:nth-child(1) {
+  width: 25%;
+  padding-left: 40px;
+}
+
+.row .cell:nth-child(2) {
+  width: 25%;
+}
+
+.row .cell:nth-child(3) {
+  width: 50%;
+}
+
+.table,
+.row {
+  width: 100% !important;
+}
+
+.row:hover {
+  background-color: #ececff;
+}
